@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #009999;
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+    font-size: 2.5em 
+}
+
+hr {
+    width: 30%;
+    margin: 30px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+label {
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+input[type = text], [type = email], [type = number], [type = tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+input[type = submit] {
+    width: 100%;
+    background: green;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 2em;
+    box-sizing: border-box;
+}
+
+input[type = submit]:hover {
+    background-color: navy;
+}
+
+input[type = submit]:active {
+    background-color: #0047AB;
+}
+
+.input-field {
+    text-align: center;
+}
+
